@@ -1,0 +1,1022 @@
+body {
+    padding margin: 0;
+    max-width: 100%;
+    /* Para que la imagen se ajuste al ancho del contenedor */
+    max-height: 100%;
+    /* Para que la imagen se ajuste a la altura del contenedor */
+}
+
+/* Barra azul principal------------------------------------------------------------------------*/
+
+
+
+.anunciomenu1 {
+    background-color: #00084d;
+    height: 40px;
+    margin: 0;
+    padding: 0 0 20px;
+    /* Corregido el error en la sintaxis del padding */
+    display: flex;
+
+    justify-content: space-between;
+    /* Ajusta el espacio entre los elementos */
+
+
+
+}
+
+.anunciomenu1>* {
+    margin: 0 100px;
+    /* Ajusta el espacio horizontal entre los elementos */
+}
+
+.announcing {
+
+
+    width: 1100px;
+    /* Ocupa todo el ancho disponible */
+    display: flex;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    /* Separación horizontal */
+}
+
+.announcing img {
+    width: 60px;
+    /* Tamaño deseado */
+    height: auto;
+    /* Para mantener la proporción */
+    margin-bottom: 15px;
+
+    margin-top: 10px;
+    /* Añade espacio superior */
+}
+
+.announcingtexto {
+
+    height: auto;
+    /* Para mantener la proporción */
+    margin-bottom: 15px;
+
+    max-width: 100%;
+    /* Ocupa todo el ancho disponible */
+}
+
+.imagen_docker {
+    width: 54px;
+    height: 41px;
+}
+
+.docgetcontact {
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    height: 60px;
+    max-width: 600px;
+    gap: 10px;
+    display: flex;
+}
+
+
+
+.menbarra {
+    height: 70px;
+    background-color: #00084d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid white;
+    /* Grosor, tipo de borde y color */
+    background-image: url("https://www.docker.com/wp-content/uploads/2024/01/builld-cloud-header-glow.svg");
+}
+
+.menbarra>* {
+    margin: 0 240px;
+    /* Ajusta el espacio horizontal entre los elementos */
+}
+
+.menbarra>.imbarra {
+    margin-right: auto;
+    /* Mueve este elemento hacia el lado izquierdo */
+}
+
+.menbarra>.botbarra {
+    margin-left: auto;
+    /* Mueve este elemento hacia el lado derecho */
+}
+
+.imbarra img {
+    max-width: 100%;
+    /* Asegura que la imagen no sobrepase el ancho del contenedor */
+  
+}
+
+.medibarra p {
+    text-align: center;
+    /* Centra el texto */
+}
+
+.botbarra {
+    display: flex;
+    gap: 20px;
+}
+
+
+.getstar {
+    border: 2px solid white;
+   
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+
+
+
+}
+
+.sing {
+  
+    border: 2px solid white;
+    /* Grosor, tipo de borde y color */
+    border-radius: 10px;
+    /* Radio de borde */
+
+
+}
+
+/* Barra azul Fin------------------------------------------------------------------------*/
+
+
+
+
+.flexeo-container2 {
+    background-image: url("https://www.docker.com/wp-content/uploads/2024/01/builld-cloud-header-glow.svg");
+    height: 40px;
+    width: 100%;
+    min-height: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: #00084d;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Poppins, sans-serif;
+    border-bottom: 0.05px solid #cbc5c5;
+    /* Borde normal */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------TEXTO BUILDS CLOUD-----------------------*/
+
+.flex-container {
+    background-image: url("https://www.docker.com/wp-content/uploads/2024/01/builld-cloud-header-glow.svg");
+
+
+    height: 600px;
+    width: 100%;
+    min-height: 2px;
+    display: flex;
+    flex-direction: column;
+    background-color: #00084d;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Poppins, sans-serif;
+    border-radius: 0 0 60% 60%;
+    /* Curva solo en la parte inferior */
+    margin-bottom: 50px;
+
+}
+
+.flex-container h1 {
+    margin-top: -1px;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.flex-container p {
+    font-size: 24px;
+    margin-top: -40px;
+    font-weight: 400;
+
+}
+
+.botonbuild {
+
+    height: 57.6278px;
+    width: 300.994px;
+
+    background-color: #ff8fbc;
+    /* Color de fondo */
+    background-image: linear-gradient(to left, #f96d9e 20%, #b3afff 80%);
+    /* Degradado de derecha a izquierda */
+
+    color: black;
+    border-radius: 5px;
+
+    display: inline-block;
+    transform: none;
+    box-sizing: border-box;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-color: #FFFFFF;
+
+    font-family: Roboto, sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: -0.225px;
+
+}
+
+.botonbuild p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+
+
+.bloque-padre {
+    margin: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloque-hijo {
+    width: 30%;
+    /* Ajusta el ancho según tus necesidades */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.acelerate2 {
+
+    background-color: #ffffff;
+    border-radius: 0 0 60% 60%;
+    height: 400px;
+    width: 100%;
+    min-height: 1px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 30px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Poppins, sans-serif;
+
+}
+
+
+.acelerate2 h2 {
+    font-size: 23px;
+    margin-top: -4px;
+    color: #030d67;
+}
+
+.acelerate2 h3 {
+    margin-top: -4px;
+    line-height: 1;
+    /* Reducir el espacio entre líneas */
+    font-size: 60px;
+    color: black;
+}
+
+.acelerate2 p {
+    margin-top: -35px;
+    font-size: 18px;
+    color: black;
+}
+
+.azulcuadro {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #03061e;
+    color: white;
+}
+
+.develop {
+
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 100px;
+    height: 600px;
+    width: 100%;
+    min-height: 1px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 5px;
+    line-height: -10px;
+}
+
+.develop h2 {
+    font-size: 23px;
+    color: white;
+}
+
+.develop h3 {
+    line-height: 1;
+    margin-top: 10px;
+    /* Reducir el espacio entre líneas */
+    font-size: 60px;
+    color: white;
+}
+
+.develop p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+
+.meet {
+
+    height: 600px;
+    width: 100%;
+    min-height: 1px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 5px;
+    line-height: -10px;
+}
+
+.meet h2 {
+    font-size: 23px;
+    color: #00084d;
+}
+
+.meet h3 {
+    line-height: 1;
+    margin-top: 10px;
+    /* Reducir el espacio entre líneas */
+    font-size: 60px;
+    color: black;
+}
+
+.meet p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.acelerate {
+
+
+    height: 600px;
+    width: 100%;
+    min-height: 1px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Poppins, sans-serif;
+
+    margin-bottom: 5px;
+    line-height: -30px;
+    /* Reducir el espacio entre líneas */
+}
+
+.acelerate h2 {
+
+    font-size: 23px;
+    margin-top: -4px;
+    color: #00084d;
+
+
+}
+
+.acelerate h3 {
+    margin-top: -4px;
+    line-height: 1;
+    /* Reducir el espacio entre líneas */
+    font-size: 60px;
+    color: black;
+
+
+}
+
+.acelerate p {
+    margin-top: -35px;
+    font-size: 18px;
+    color: black;
+}
+
+
+
+
+
+.tablaimagenes1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tablaimagenes2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+
+}
+
+.tablatotal {
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+}
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.imagen7 img {
+    max-width: 100%;
+    /* Para que la imagen se ajuste al ancho del contenedor */
+    max-height: 100%;
+    /* Para que la imagen se ajuste a la altura del contenedor */
+}
+
+.imagen7 {
+    width: 100%;
+    height: 30vh;
+    /* Para que la imagen ocupe toda la altura de la ventana */
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+/*----------------------FIN TEXTO BUILDS CLOUD-----------------------*/
+
+.cajabuildcloud {}
+
+h1 .cajabuildcloud {
+
+    font-weight: 800;
+}
+
+p .cajabuildcloud {
+    font-size: 30px;
+}
+
+
+.BLOQUETEXTO {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    border-radius: 0 0 50% 50%;
+    /* Curva solo en la parte inferior */
+}
+
+.derechabloqu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+    /* Ajusta el ancho máximo */
+    text-align: left;
+    /* Justificar el texto a la izquierda */
+}
+
+@media (min-width: 768px) {
+    .BLOQUETEXTO {
+        justify-content: right;
+        /* No es necesario para apilar elementos verticalmente */
+        align-items: center;
+        /* Para centrar verticalmente los bloques */
+    }
+
+    .BLOQUETEXTO h1,
+    .BLOQUETEXTO h2,
+    .BLOQUETEXTO p,
+    .derechabloqu {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: none;
+        /* Restablece el ancho máximo */
+        text-align: left;
+        /* Justificar el texto a la izquierda */
+    }
+}
+
+.bloquededostrozos {
+    display: flex;
+    flex-direction: column;
+    /* Establece la dirección de los elementos a vertical */
+    justify-content: center;
+    /* Centra verticalmente los elementos */
+    align-items: center;
+    /* Centra horizontalmente los elementos */
+}
+
+@media (min-width: 768px) {
+    .bloquededostrozos {
+        flex-direction: row;
+        /* Cambia la dirección a horizontal en pantallas más grandes */
+    }
+}
+
+
+.fondoblancocurvo {
+    background-color: #050627;
+    height: 1500px;
+    border-radius: 0 0 20% 20%;
+    /* Curva solo en la parte inferior */
+    /* Curva solo en la parte inferior */
+}
+
+
+
+.imagencentromedio {
+
+    width: 100%;
+    height: 30vh;
+    /* Para que la imagen ocupe toda la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+
+}
+
+.imagencentromedio img {
+    max-width: 100%;
+    /* Para que la imagen se ajuste al ancho del contenedor */
+    max-height: 100%;
+    /* Para que la imagen se ajuste a la altura del contenedor */
+}
+
+
+
+
+
+
+
+
+
+/*------------BOTON ENORME ABAJO AZUL ----------------------*/
+
+.banner {
+
+
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    overflow: hidden;
+
+
+
+
+
+
+    width: 1280px;
+    height: 255px;
+    margin: 176PX, 461px, 0 px;
+    max-width: 1780px;
+    padding: 90px 60px;
+    /*AQUI ES EL TRUCO DE CENTRAR BORDES EN MEDIO DE LA CAJA*/
+
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+    transition: all 0.3s ease;
+    background-color: #1d63ed;
+    color: white;
+
+
+    border-radius: 24px;
+
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+.text-container h1 {
+    font-size: 38px;
+    text-align: center;
+
+
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    letter-spacing: -1.25px;
+    line-height: 41.8px;
+    text-align: left;
+    word-spacing: 0px;
+    transform: none;
+
+    height: 51px;
+    width: 861px;
+    padding: 0 0 10px 0;
+}
+
+
+
+.text-container p {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+}
+
+
+
+button {
+
+    margin: 0px;
+    height: 57.6278px;
+    width: 195.994px;
+    gap: 10px;
+    border: 2px, solid, #FFFFFF;
+    min-height: 54px;
+    min-width: 196px;
+
+
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+    padding: 18px 23px 18px 23px;
+    background-color: white;
+    color: #005cc5;
+    border-radius: 5px;
+
+    display: inline-block;
+    transform: none;
+    box-sizing: border-box;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-color: #FFFFFF;
+
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.225px;
+    text-decoration: none, solid, rgb(29, 99, 237);
+}
+
+
+
+/*------------FIN BOTON ENORME ABAJO AZUL ----------------------*/
+
+.container {
+    margin: 0 auto;
+    padding: 27px 0 clamp(40px, 10vw, 100px);
+    border-bottom: 1px solid rgb(239, 239, 242);
+    background: rgb(249, 249, 250) center/cover no-repeat;
+    box-sizing: border-box;
+    width: 88%;
+    max-width: 1280px;
+    color: rgb(11, 33, 74);
+    text-align: start;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+}
+
+.svg-container {
+    margin-top: 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: -160px;
+}
+
+.boton {
+    border: 1px solid rgb(226, 226, 226);
+    margin-bottom: 100px;
+    width: 160px;
+    height: 50px;
+    /* Altura de los botones */
+    border-radius: 25px;
+    /* Bordes redondos */
+    background-color: #ffffff;
+    /* Color de fondo */
+    margin-right: 10px;
+    /* Espacio entre botones */
+    display: flex;
+    /* Para que el contenido esté centrado verticalmente */
+    justify-content: center;
+    /* Para centrar horizontalmente el contenido */
+    align-items: center;
+    /* Para centrar verticalmente el contenido */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* Sombra con opacidad del 20% */
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.boton1 {
+    font-size: 18px;
+    margin-bottom: 100px;
+    width: 160px;
+    height: 50px;
+    /* Altura de los botones */
+    border-radius: 25px;
+    /* Bordes redondos */
+    background-color: #0086bb;
+    /* Color de fondo */
+    margin-right: 10px;
+    /* Espacio entre botones */
+    display: flex;
+    /* Para que el contenido esté centrado verticalmente */
+    justify-content: center;
+    /* Para centrar horizontalmente el contenido */
+    align-items: center;
+    /* Para centrar verticalmente el contenido */
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.boton1 img {
+    margin-right: 10px;
+    /* Espacio entre la imagen y el texto */
+
+
+}
+
+/*  imagen borde entre bloques curvo*/
+.imagenespacio {
+    width: 100%;
+    height: 30vh;
+    /* Para que la imagen ocupe toda la altura de la ventana */
+    display: flex;
+    margin-bottom: -300px;
+
+}
+
+.imagenespacio img {
+    max-width: 100%;
+    /* Para que la imagen se ajuste al ancho del contenedor */
+    max-height: 100%;
+    /* Para que la imagen se ajuste a la altura del contenedor */
+}
+
+/* Pie de pagina listas -------------------------------------------------------*/
+.marpie {
+    margin-bottom: -195px;
+    background-color: #f9f9fa;
+}
+
+.bloque4 {
+    margin: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.bloque4 .imagen {
+    margin-block-start: 300px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.bloque4 .imagen img {
+    max-width: 100%;
+    /* Para asegurar que la imagen no sobrepase el tamaño del contenedor */
+}
+
+.bloque4 .lista1,
+.bloque4 .lista2,
+.bloque4 .lista3,
+.bloque4 .lista4,
+.bloque4 .lista5 {
+    max-width: 30%;
+    /* Ajusta el ancho máximo para las listas */
+}
+
+.bloque4 .lista1 ul,
+.bloque4 .lista2 ul,
+.bloque4 .lista3 ul,
+.bloque4 .lista4 ul,
+.bloque4 .lista5 ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.bloque4 .lista1 ul li,
+.bloque4 .lista2 ul li,
+.bloque4 .lista3 ul li,
+.bloque4 .lista4 ul li,
+.bloque4 .lista5 ul li {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .bloque4 {
+        flex-direction: column;
+    }
+
+    .bloque4 .imagen,
+    .bloque4 .lista1,
+    .bloque4 .lista2,
+    .bloque4 .lista3,
+    .bloque4 .lista4,
+    .bloque4 .lista5 {
+        max-width: 100%;
+    }
+}
+
+
+.textitoini {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los bloques */
+    margin-bottom: 100px; /* Espacio en la parte inferior */
+}
+
+.textitoini h3 {
+    text-align: left; /* Justifica el texto a la izquierda */
+}
+
+.textoscentrados {
+   display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Esp acio entre los bloques */
+    margin-bottom: 100px;
+}
+
+.to,
+.tq,
+.tas {
+    flex: 1; /* Distribuye el espacio disponible entre los bloques */
+    max-width: 300px; /* Ancho máximo de los bloques */
+    padding: 20px; /* Espacio interno dentro de cada bloque */
+    font-family: Poppins, sans-serif;
+    text-align: left; /* Justifica el texto a la izquierda */
+}
+
+.to,
+.tq,
+.tas, p {
+    font-size: 16px;
+}
+.to,
+.tq,
+.tas, h1{
+    font-size: 18px;
+}
+
+
+
+
+/* Estilos adicionales para los botones */
+.getzul,
+.ow,
+.sito {
+    margin-top: 15px; /* Espacio superior entre el texto y el botón */
+    color: #0086bb;
+}
+
+
+
+
+.cuerpopie {
+    width: auto;
+
+    border-top: 1px solid black;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en pantallas más pequeñas */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.juntopie {
+    background-color: #f9f9fa;
+    margin-bottom: 40px;
+    /* Cambiado para que sea más consistente con la distancia */
+}
+
+.espacioabajo {
+    flex-basis: 100%;
+}
+
+.botonpie {
+    padding: 10px;
+    border: 1px solid #1d63ed;
+    background-color: #eeeeee;
+    color: #1d63ed;
+}
