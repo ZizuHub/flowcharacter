@@ -8,9 +8,27 @@ body {
     max-height: 100%;   
 }
 
+/***
+-> Carrusel - Bloque Azul
+***/
 
+.caruselimagen {
+    display: flex;
+    flex-direction: column; /* Los elementos se apilan uno encima del otro */
+    justify-content: center; /* Centra verticalmente los elementos */
+    align-items: center; /* Centra horizontalmente los elementos */
+}
 
+.caruselimagen img {
+    margin-bottom: 20px; /* Ajusta el valor según el espacio que desees entre las imágenes */
+}
 
+/* Media query para dispositivos con un ancho máximo de 768px */
+@media screen and (max-width: 768px) {
+    .caruselimagen {
+        flex-direction: row; /* Los elementos vuelven a ser uno al lado del otro */
+    }
+}
 /***
 -> Barra Azul - Del anuncio > 
 ***/
@@ -74,10 +92,11 @@ body {
     color: white;
     border-bottom: 1px solid white;
     background-image: url("https://www.docker.com/wp-content/uploads/2024/01/builld-cloud-header-glow.svg");
+    
 }
 
 .menbarra>* {
-    margin: 0 240px;
+   margin: 0 40px; 
 }
 
 .menbarra>.imbarra {
@@ -89,11 +108,21 @@ body {
 }
 
 .imbarra img {
-    max-width: 100%;  
+    max-width: 40%;  
+}
+
+.medibarra {
+    display: flex; 
+    margin-left: -140px;
+  
 }
 
 .medibarra p {
-    text-align: center;
+    display: inline-block; 
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
 }
 
 .botbarra {
@@ -201,15 +230,7 @@ body {
 
 
 
-.bloque-padre {
-    margin: 400px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.bloque-hijo {
-    width: 30%;
-}
 
 /***
 -> Bloque con texto - What is Docker >
@@ -262,25 +283,20 @@ body {
 }
 
 .develop {
-    height: 300px;
+   
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 100px;
-    height: 600px;
-    width: 100%;
-    min-height: 1px;
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 20px;
-    margin: auto;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
     font-family: Poppins, sans-serif;
     margin-bottom: 5px;
     line-height: -10px;
+}
+.develop p.azult {
+    color: #2496ed; 
 }
 
 .develop h2 {
@@ -514,30 +530,25 @@ p .cajabuildcloud {
 
 .banner {
 
-
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 1280px;
+    max-width: 1280px; /* Cambiado a un valor máximo */
+    width: 90%; /* Cambiado a un valor relativo */
     height: 255px;
-    margin: 176PX, 461px, 0 px;
-    max-width: 1780px;
-    padding: 90px 60px;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    transition: all 0.3s ease;
+    margin: 176px auto 0; /* Corregido el formato y centrado horizontalmente */
+    padding: 5%; /* Cambiado a un valor relativo */
     background-color: #1d63ed;
     color: white;
     border-radius: 24px;
     box-sizing: border-box;
-    margin: 0 auto;
+    transition: all 0.3s ease;
 }
 
 
 .text-container h1 {
+    display: flex;
     font-size: 38px;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -674,10 +685,6 @@ button {
 
 }
 
-.imagenespacio img {
-    max-width: 100%;
-    max-height: 100%;
-}
 
 /* Pie de pagina listas -------------------------------------------------------*/
 .marpie {
@@ -698,7 +705,7 @@ button {
 }
 
 .bloque4 .imagen {
-    margin-block-start: 300px;
+    margin-block-start: 200px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -835,13 +842,68 @@ button {
 -> Bloque con tres logos pequeños - Tres parafos - En bloque Azul >
 ***/
 
-.bloque-padre{
-    background-color: #00084d;
-    
+.azulbloqueo {
+    background-color: #03061e;
+    border-radius: 0 0 20% 20%;
+    width: auto;
+    height: auto;
+    text-align: center; /* Añadido para centrar el contenido */
+    padding: 20px; /* Añadido para separar el contenido del borde */
+}
+
+.bloque-padre {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap; 
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+.bloque-hijo {
+    flex-wrap: wrap;
+        margin: 150px;
+        text-align: left;
+            max-width: 400px; 
+            margin: 0 auto;
+            padding: 20px; 
+           
+}
+
+.bloque-hijo p {
+    color: white; /* Cambiar el color del texto a blanco */
+}
+
+.imagen {
+    flex-wrap: wrap;
+    height: auto; /* Añadido para que las imágenes conserven su aspecto original */
+}
+.integrate{
+    justify-content: center;
+    display: block;
+}
+.integrate p{
+    color: #eeeeee;
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0,5;
+    line-height: 38,4px;
+    word-spacing: 0px;
+    font-weight: bold;
 }
 
 
 
+
+
+
+/* Media query para dispositivos con un ancho máximo de 600px */
+@media screen and (max-width: 600px) {
+    .bloque-padre {
+        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    }
+}
 
 
 /***
@@ -878,5 +940,4 @@ button {
   }
   
 
-  
   
