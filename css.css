@@ -3,9 +3,10 @@
 -> Ajustes para el Cuerpo de la Pagina >
 ***/
 body {
-    padding margin: 0;
+    margin: 0;
     max-width: 100%;
     max-height: 100%;   
+    font-family: Poppins, sans-serif;
 }
 
 /***
@@ -53,10 +54,9 @@ body {
     gap: 10px;
 }
 .announcing img {
-    width: 60px;
+    width: auto;
     height: auto;
-    margin-bottom: 15px;
-    margin-top: 10px;
+   
 }
 .announcingtexto {
     height: auto;
@@ -108,8 +108,13 @@ body {
 }
 
 .imbarra img {
-    max-width: 40%;  
+    display: block; /* Ajusta la imagen como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 70%; /* Reducción del tamaño de la imagen al 80% del ancho del contenedor */
+    max-height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
 }
+
+
 
 .medibarra {
     display: flex; 
@@ -451,10 +456,10 @@ p .cajabuildcloud {
 
 .BLOQUETEXTO {
     width: 100%;
-    display: flex;
     flex-direction: column;
     color: black;
     padding: 20px;
+    margin: 0;
     margin: auto;
     text-align: left;
     font-family: Poppins, sans-serif;
@@ -473,6 +478,19 @@ p .cajabuildcloud {
     .BLOQUETEXTO {
         justify-content: right;
         align-items: center;
+    }
+
+    .BLOQUETEXTO h1{
+        font-size: 48px;
+        color: #0b214a;
+        font-weight: 700;
+        line-height: 52px;
+        font-weight: bold;
+    }
+    
+    .BLOQUETEXTO h2{
+        font-size: 20px;
+        color: #0b214a;
     }
 
     .BLOQUETEXTO h1,
@@ -501,16 +519,40 @@ p .cajabuildcloud {
 
 
 
+/***
+-> Bloque cubo imagen 
+***/
+.cubobloque {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-left: auto; /* Agrega espacio en el lado izquierdo */
+    margin-right: auto; /* Agrega espacio en el lado derecho */
+    max-width: 600px; /* Ancho máximo del contenedor principal */
+}
+.cubotexto {
+    text-align: left; /* Alinea el texto a la izquierda */
+    align-self: flex-start; /* Alinea el texto en la parte superior */
+    flex-grow: 1; /* Permite que el bloque de texto crezca para llenar el espacio restante */
+}
 
+.cuboimagen {
+    margin-left: 0px; /* Agrega un espacio entre el texto y la imagen */
+}
 
+@media (max-width: 600px) {
+    .cuboimagen {
+        margin-left: 0; /* Elimina el margen izquierdo en pantallas más pequeñas */
+        margin-top: 20px; /* Agrega un espacio entre el texto y la imagen en pantallas más pequeñas */
+    }
+}
 
 .imagencentromedio {
     width: 100%;
     height: 30vh;
     display: flex;
     justify-content: center;
-    margin-top: -200px;
-
+   
 }
 
 .imagencentromedio img {
@@ -705,10 +747,12 @@ button {
 }
 
 .bloque4 .imagen {
-    margin-block-start: 200px;
+    margin-block-start: 3px; /* Margen superior reducido a 5px */
     display: flex;
-    justify-content: left;
+    justify-content: flex-start; /* Alineado a la izquierda */
     align-items: center;
+    width: 150px; /* Ancho reducido a 100px */
+    height: 100px; /* Altura reducida a 400px */
 }
 
 .bloque4 .imagen img {
@@ -938,6 +982,11 @@ button {
   .elemento {
     width: 100%;
   }
-  
+  .cubobloque h1{
+    font-size: 56px;
+  }
+  .cubobloque p,h2{
+    font-size: 18px;
+  }
 
   
